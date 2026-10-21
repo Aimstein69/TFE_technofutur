@@ -4,22 +4,10 @@
     "heroLine1": "Votre messagerie.",
     "heroLine2": "Sur vos appareils.",
     "description": "Accédez à PrivateChat depuis votre navigateur et retrouvez ici les applications disponibles pour vos appareils.",
-    "platformsLabel": "Plateformes PrivateChat",
-    "web": {
-      "title": "Version web",
-      "description": "Utilisez PrivateChat depuis votre navigateur, sans installer d'application supplémentaire.",
-      "button": "Accéder à la connexion"
-    },
     "windows": {
       "title": "Application Windows",
-      "description": "Une application de bureau dédiée est prévue pour utiliser PrivateChat sur votre ordinateur Windows.",
       "button": "Bientôt disponible"
     },
-    "platforms": "Windows",
-    "securityTitle": "Votre sécurité reste essentielle.",
-    "securityDescription": "Découvrez les principes de confidentialité et de protection qui guident le développement de PrivateChat.",
-    "securityButton": "Découvrir la sécurité",
-    "footerCopyright": "© PrivateChat",
-    "footerSlogan": "Votre vie privée mérite mieux."
+    "platforms": "Windows"
   }
 }

@@ -41,8 +41,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    min-height: 76px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    min-height: 80px;
+    border-bottom: 1px solid var(--border);
 }
 
 .brand {
@@ -51,7 +51,7 @@
     gap: 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     font-weight: 750;
     white-space: nowrap;
 }
@@ -78,7 +78,7 @@
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-    color: var(--blue-light);
+    color: rgb(91, 143, 255);
 }
 
 .nav-actions {

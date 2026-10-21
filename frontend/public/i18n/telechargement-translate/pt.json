@@ -1,24 +1,13 @@
 {
   "download": {
-    "eyebrow": "TRANSFERÊNCIAS",
-    "heroLine1": "As suas mensagens.",
-    "heroLine2": "Em todos os seus dispositivos.",
-    "description": "Aceda ao PrivateChat através do seu navegador e encontre aqui as aplicações disponíveis para os seus dispositivos.",
-    "platformsLabel": "Plataformas PrivateChat",
-    "web": {
-      "title": "Versão web",
-      "description": "Utilize o PrivateChat no seu navegador sem instalar uma aplicação adicional.",
-      "button": "Aceder ao início de sessão"
-    },
+    "eyebrow": "TRANSFERÊNCIA",
+    "heroLine1": "As tuas mensagens.",
+    "heroLine2": "Em todos os teus dispositivos.",
+    "description": "Acede ao PrivateChat através do teu navegador e encontra aqui as aplicações disponíveis para os teus dispositivos.",
     "windows": {
       "title": "Aplicação para Windows",
-      "description": "Está prevista uma aplicação de ambiente de trabalho dedicada para utilizar o PrivateChat no seu computador Windows.",
       "button": "Em breve"
     },
-    "securityTitle": "A sua segurança continua a ser essencial.",
-    "securityDescription": "Descubra os princípios de privacidade e proteção que orientam o desenvolvimento do PrivateChat.",
-    "securityButton": "Descobrir a segurança",
-    "footerCopyright": "© PrivateChat",
-    "footerSlogan": "A sua privacidade merece mais."
+    "platforms": "Windows"
   }
 }

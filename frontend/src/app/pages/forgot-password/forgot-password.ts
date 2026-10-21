@@ -47,7 +47,6 @@ next: (response) => {
   console.log('Réponse du backend :', response);
   console.log('Avant affichage :', this.showResetEmailModal);
 
-  this.successMessage = response.message;
   this.showResetEmailModal = true;
   this.isLoading = false;
   this.cdr.detectChanges();

@@ -1,16 +1,23 @@
 {
-  "forgotPassword": {
-    "home": "PrivateChat，首页",
-    "title": "忘记密码？",
-    "description": "请输入你的电子邮箱地址。如果存在匹配的账户，你将收到用于重置密码的链接。",
-    "emailLabel": "电子邮箱地址",
-    "emailPlaceholder": "you@email.com",
-    "loading": "正在发送…",
-    "submit": "发送重置链接",
-    "modalTitle": "请检查你的邮箱！",
-    "modalDescription": "密码重置邮件已发送。",
-    "modalHint": "如果存在与此邮箱地址匹配的账户，你将收到密码重置链接。请记得检查垃圾邮件文件夹。",
-    "modalButton": "知道了",
-    "backToLogin": "返回登录"
+  "resetPassword": {
+    "home": "返回 PrivateChat 首页",
+    "title": "重置密码",
+    "description": "请为你的账户设置新密码。",
+    "passwordLabel": "新密码",
+    "passwordPlaceholder": "请输入新密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "请再次输入新密码",
+    "loading": "正在重置密码...",
+    "submit": "重置密码",
+    "backToLogin": "返回登录",
+    "errors": {
+      "missingToken": "密码重置链接缺失或无效。",
+      "invalidToken": "密码重置链接无效。",
+      "passwordMinLength": "密码至少需要包含 12 个字符。",
+      "passwordMismatch": "两次输入的密码不一致。",
+      "resetFailed": "链接可能已过期或已被使用。",
+      "generic": "发生错误，请重试。"
+    },
+    "success": "密码已成功重置。"
   }
 }

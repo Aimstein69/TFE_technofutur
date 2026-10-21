@@ -1,16 +1,23 @@
 {
-  "forgotPassword": {
-    "home": "PrivateChat, Startseite",
-    "title": "Passwort vergessen?",
-    "description": "Gib deine E-Mail-Adresse ein. Wenn ein passendes Konto existiert, erhältst du einen Link zum Zurücksetzen deines Passworts.",
-    "emailLabel": "E-Mail-Adresse",
-    "emailPlaceholder": "du@email.com",
-    "loading": "Wird gesendet…",
-    "submit": "Link senden",
-    "modalTitle": "Überprüfe deinen Posteingang!",
-    "modalDescription": "Eine E-Mail zum Zurücksetzen des Passworts wurde gesendet.",
-    "modalHint": "Wenn ein Konto zu dieser Adresse gehört, erhältst du einen Link zum Zurücksetzen deines Passworts. Überprüfe auch deinen Spam-Ordner.",
-    "modalButton": "Verstanden",
-    "backToLogin": "Zurück zur Anmeldung"
+  "resetPassword": {
+    "home": "Zurück zur PrivateChat-Startseite",
+    "title": "Passwort zurücksetzen",
+    "description": "Wähle ein neues Passwort für dein Konto.",
+    "passwordLabel": "Neues Passwort",
+    "passwordPlaceholder": "Gib dein neues Passwort ein",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "Bestätige dein neues Passwort",
+    "loading": "Passwort wird zurückgesetzt...",
+    "submit": "Passwort zurücksetzen",
+    "backToLogin": "Zurück zur Anmeldung",
+    "errors": {
+      "missingToken": "Der Link zum Zurücksetzen des Passworts fehlt oder ist ungültig.",
+      "invalidToken": "Der Link zum Zurücksetzen des Passworts ist ungültig.",
+      "passwordMinLength": "Das Passwort muss mindestens 12 Zeichen enthalten.",
+      "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+      "resetFailed": "Der Link ist möglicherweise abgelaufen oder wurde bereits verwendet.",
+      "generic": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+    },
+    "success": "Dein Passwort wurde erfolgreich zurückgesetzt."
   }
 }

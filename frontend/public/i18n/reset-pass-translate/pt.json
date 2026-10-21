@@ -1,16 +1,23 @@
 {
-  "forgotPassword": {
-    "home": "PrivateChat, início",
-    "title": "Esqueceste-te da palavra-passe?",
-    "description": "Introduz o teu endereço de email. Se existir uma conta correspondente, receberás um link para redefinir a palavra-passe.",
-    "emailLabel": "Endereço de email",
-    "emailPlaceholder": "tu@email.com",
-    "loading": "A enviar…",
-    "submit": "Enviar link",
-    "modalTitle": "Verifica a tua caixa de entrada!",
-    "modalDescription": "Foi enviado um email para redefinir a palavra-passe.",
-    "modalHint": "Se existir uma conta associada a este endereço, receberás um link para redefinir a palavra-passe. Verifica também a pasta de spam.",
-    "modalButton": "Entendi",
-    "backToLogin": "Voltar ao início de sessão"
+  "resetPassword": {
+    "home": "Voltar à página inicial do PrivateChat",
+    "title": "Redefinir palavra-passe",
+    "description": "Escolhe uma nova palavra-passe para a tua conta.",
+    "passwordLabel": "Nova palavra-passe",
+    "passwordPlaceholder": "Introduz a tua nova palavra-passe",
+    "confirmPasswordLabel": "Confirmar palavra-passe",
+    "confirmPasswordPlaceholder": "Confirma a tua nova palavra-passe",
+    "loading": "A redefinir a palavra-passe...",
+    "submit": "Redefinir palavra-passe",
+    "backToLogin": "Voltar ao início de sessão",
+    "errors": {
+      "missingToken": "O link de redefinição da palavra-passe está em falta ou é inválido.",
+      "invalidToken": "O link de redefinição da palavra-passe é inválido.",
+      "passwordMinLength": "A palavra-passe deve conter pelo menos 12 caracteres.",
+      "passwordMismatch": "As palavras-passe não coincidem.",
+      "resetFailed": "O link pode ter expirado ou já ter sido utilizado.",
+      "generic": "Ocorreu um erro. Tenta novamente."
+    },
+    "success": "A tua palavra-passe foi redefinida com sucesso."
   }
 }

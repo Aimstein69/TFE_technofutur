@@ -1,24 +1,13 @@
 {
   "download": {
     "eyebrow": "DOWNLOAD",
-    "heroLine1": "Ihre Nachrichten.",
-    "heroLine2": "Auf Ihren Geräten.",
-    "description": "Greifen Sie über Ihren Browser auf PrivateChat zu und finden Sie hier die verfügbaren Anwendungen für Ihre Geräte.",
-    "platformsLabel": "PrivateChat-Plattformen",
-    "web": {
-      "title": "Webversion",
-      "description": "Nutzen Sie PrivateChat direkt in Ihrem Browser, ohne eine zusätzliche Anwendung installieren zu müssen.",
-      "button": "Zur Anmeldung"
-    },
+    "heroLine1": "Dein Messenger.",
+    "heroLine2": "Auf all deinen Geräten.",
+    "description": "Nutze PrivateChat in deinem Browser und finde hier die verfügbaren Anwendungen für deine Geräte.",
     "windows": {
       "title": "Windows-Anwendung",
-      "description": "Eine spezielle Desktop-Anwendung für die Nutzung von PrivateChat auf Ihrem Windows-Computer ist geplant.",
       "button": "Demnächst verfügbar"
     },
-    "securityTitle": "Ihre Sicherheit bleibt unverzichtbar.",
-    "securityDescription": "Entdecken Sie die Datenschutz- und Sicherheitsprinzipien, die die Entwicklung von PrivateChat leiten.",
-    "securityButton": "Sicherheit entdecken",
-    "footerCopyright": "© PrivateChat",
-    "footerSlogan": "Ihre Privatsphäre verdient mehr."
+    "platforms": "Windows"
   }
 }
