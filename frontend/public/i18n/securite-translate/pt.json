@@ -1,0 +1,28 @@
+{
+  "security": {
+    "eyebrow": "SEGURANÇA E PRIVACIDADE",
+    "heroLine1": "A sua privacidade.",
+    "heroLine2": "A nossa prioridade.",
+    "description": "O PrivateChat foi concebido para limitar a exposição dos seus dados, proteger as suas contas e dar-lhe controlo sobre as suas conversas.",
+    "gridLabel": "Princípios de segurança",
+    "accounts": {
+      "title": "Contas protegidas",
+      "description": "A verificação do endereço de e-mail e as medidas de proteção da autenticação ajudam a limitar os acessos não autorizados."
+    },
+    "data": {
+      "title": "Minimização de dados",
+      "description": "Limitar as informações recolhidas, evitar a sua exploração comercial e eliminar os dados que já não são necessários."
+    },
+    "messages": {
+      "title": "Mensagens sob o seu controlo",
+      "description": "O projeto prevê a eliminação das mensagens após a leitura ou depois de um período definido pelo utilizador."
+    },
+    "encryption": {
+      "title": "Encriptação",
+      "description": "Proteger os dados sensíveis através de mecanismos de encriptação adequados à sua natureza e utilização."
+    },
+    "note": "A segurança não depende de uma única funcionalidade, mas de várias camadas de proteção.",
+    "featuresLink": "Descobrir funcionalidades",
+    "footer": "PrivateChat — Os seus dados não são uma mercadoria."
+  }
+}

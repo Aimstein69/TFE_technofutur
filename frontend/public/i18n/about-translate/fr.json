@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "PrivateChat, accueil",
+    "mainNavigation": "Navigation principale",
+    "features": "Fonctionnalités",
+    "security": "Sécurité",
+    "download": "Téléchargement",
+    "about": "À propos",
+    "account": "Mon compte",
+    "logout": "Déconnexion",
+    "login": "Se connecter"
+  },
+  "about": {
+    "eyebrow": "À PROPOS DU PROJET",
+    "title": "Un projet pour",
+    "titleHighlight": "repousser mes limites.",
+    "paragraph1": "PrivateChat a vu le jour dans le cadre de ma formation de développeur Web/App. Au-delà de ce projet de formation, c'est pour moi l'occasion de découvrir de nouvelles technologies, d'approfondir mes compétences et de relever des défis techniques que je n'ai pas encore eu l'occasion d'explorer.",
+    "paragraph2": "Mon objectif est simple : apprendre, expérimenter et repousser mes limites pour transformer une idée en un projet concret, tout en continuant à progresser en tant que développeur.",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "Un projet en constante évolution."
+  }
+}

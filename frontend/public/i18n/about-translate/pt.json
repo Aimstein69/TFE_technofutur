@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "PrivateChat, início",
+    "mainNavigation": "Navegação principal",
+    "features": "Funcionalidades",
+    "security": "Segurança",
+    "download": "Transferir",
+    "about": "Sobre",
+    "account": "A minha conta",
+    "logout": "Terminar sessão",
+    "login": "Iniciar sessão"
+  },
+  "about": {
+    "eyebrow": "SOBRE O PROJETO",
+    "title": "Um projeto para",
+    "titleHighlight": "superar os meus limites.",
+    "paragraph1": "O PrivateChat surgiu no âmbito da minha formação como programador Web/App. Para além de ser um projeto de formação, é uma oportunidade para descobrir novas tecnologias, aprofundar as minhas competências e enfrentar desafios técnicos que ainda não tive oportunidade de explorar.",
+    "paragraph2": "O meu objetivo é simples: aprender, experimentar e superar os meus limites para transformar uma ideia num projeto concreto, continuando a evoluir como programador.",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "Um projeto em constante evolução."
+  }
+}

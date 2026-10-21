@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "返回 PrivateChat 首页",
+    "title": "忘记密码？",
+    "description": "请输入与您的账户关联的电子邮箱地址。我们将向您发送密码重置链接。",
+    "emailLabel": "电子邮箱地址",
+    "emailPlaceholder": "you@example.com",
+    "loading": "正在发送...",
+    "submit": "发送密码重置链接",
+    "modalTitle": "请检查您的邮箱",
+    "modalDescription": "如果存在与该邮箱地址关联的账户，您将收到密码重置链接。",
+    "modalHint": "请同时检查垃圾邮件文件夹。密码重置链接仅在有限时间内有效。",
+    "modalButton": "知道了",
+    "backToLogin": "返回登录"
+  }
+}

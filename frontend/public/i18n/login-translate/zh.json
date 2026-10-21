@@ -1,0 +1,15 @@
+{
+  "login": {
+    "home": "PrivateChat，首页",
+    "title": "欢迎回来",
+    "identifierLabel": "电子邮箱或用户名",
+    "identifierPlaceholder": "电子邮箱或用户名",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "loading": "正在登录…",
+    "submit": "登录",
+    "noAccount": "还没有账户？",
+    "createAccount": "创建账户",
+    "forgotPassword": "忘记密码？"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "download": {
+    "eyebrow": "DOWNLOAD",
+    "heroLine1": "Your messaging.",
+    "heroLine2": "Across your devices.",
+    "description": "Access PrivateChat from your browser and find the applications available for your devices here.",
+    "platformsLabel": "PrivateChat platforms",
+    "web": {
+      "title": "Web version",
+      "description": "Use PrivateChat in your browser without installing an additional application.",
+      "button": "Go to login"
+    },
+    "windows": {
+      "title": "Windows application",
+      "description": "A dedicated desktop application is planned for using PrivateChat on your Windows computer.",
+      "button": "Coming soon"
+    },
+    "securityTitle": "Your security remains essential.",
+    "securityDescription": "Discover the privacy and protection principles guiding the development of PrivateChat.",
+    "securityButton": "Discover security",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "Your privacy deserves better."
+  }
+}

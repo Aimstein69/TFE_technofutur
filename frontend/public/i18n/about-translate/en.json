@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "PrivateChat, home",
+    "mainNavigation": "Main navigation",
+    "features": "Features",
+    "security": "Security",
+    "download": "Download",
+    "about": "About",
+    "account": "My account",
+    "logout": "Log out",
+    "login": "Sign in"
+  },
+  "about": {
+    "eyebrow": "ABOUT THE PROJECT",
+    "title": "A project to",
+    "titleHighlight": "push my limits.",
+    "paragraph1": "PrivateChat was created as part of my Web/App developer training. Beyond being a training project, it is an opportunity for me to discover new technologies, deepen my skills, and take on technical challenges I have not yet had the chance to explore.",
+    "paragraph2": "My goal is simple: to learn, experiment, and push my limits to turn an idea into a real project while continuing to grow as a developer.",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "A project in constant evolution."
+  }
+}

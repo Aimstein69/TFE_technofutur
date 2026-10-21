@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "PrivateChat, главная",
+    "features": "Возможности",
+    "security": "Безопасность",
+    "download": "Скачать",
+    "about": "О проекте",
+    "account": "Мой аккаунт",
+    "logout": "Выйти"
+  },
+  "profile": {
+    "eyebrow": "ЛИЧНЫЙ КАБИНЕТ",
+    "title": "Мой",
+    "titleHighlight": "аккаунт.",
+    "loading": "Загрузка профиля...",
+    "accountLabel": "Аккаунт PrivateChat",
+    "username": "Имя пользователя",
+    "email": "Адрес электронной почты",
+    "language": "Язык",
+    "verification": "Подтверждение аккаунта",
+    "verified": "Адрес подтверждён",
+    "notVerified": "Не подтверждён",
+    "downloadLink": "Перейти к загрузкам",
+    "footer": "PrivateChat — Ваша конфиденциальность заслуживает большего."
+  }
+}

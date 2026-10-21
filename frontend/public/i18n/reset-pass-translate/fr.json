@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "PrivateChat, accueil",
+    "title": "Mot de passe oublié ?",
+    "description": "Saisis ton adresse email. Si un compte correspond, tu recevras un lien pour réinitialiser ton mot de passe.",
+    "emailLabel": "Adresse email",
+    "emailPlaceholder": "ton@email.com",
+    "loading": "Envoi en cours…",
+    "submit": "Envoyer le lien",
+    "modalTitle": "Vérifie ta boîte mail !",
+    "modalDescription": "Un e-mail de réinitialisation a bien été envoyé.",
+    "modalHint": "Si un compte correspond à cette adresse, tu recevras un lien pour réinitialiser ton mot de passe. Pense à vérifier tes courriers indésirables.",
+    "modalButton": "Compris",
+    "backToLogin": "Retour à la connexion"
+  }
+}

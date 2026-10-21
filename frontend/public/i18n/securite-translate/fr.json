@@ -1,0 +1,28 @@
+{
+  "security": {
+    "eyebrow": "SÉCURITÉ & CONFIDENTIALITÉ",
+    "heroLine1": "Votre vie privée.",
+    "heroLine2": "Notre priorité.",
+    "description": "PrivateChat est conçu pour limiter l'exposition de vos données, protéger vos comptes et vous donner le contrôle sur vos échanges.",
+    "gridLabel": "Principes de sécurité",
+    "accounts": {
+      "title": "Comptes protégés",
+      "description": "Vérification de l'adresse e-mail et protection de l'authentification pour limiter les accès non autorisés."
+    },
+    "data": {
+      "title": "Données minimisées",
+      "description": "Limiter les informations collectées, éviter leur exploitation commerciale et supprimer celles qui ne sont plus nécessaires."
+    },
+    "messages": {
+      "title": "Messages maîtrisés",
+      "description": "Prévoir la suppression des messages à leur lecture ou après une durée définie par l'utilisateur."
+    },
+    "encryption": {
+      "title": "Chiffrement",
+      "description": "Protéger les données sensibles par des mécanismes de chiffrement adaptés, selon leur nature et leur usage."
+    },
+    "note": "La sécurité ne repose pas sur une seule fonctionnalité, mais sur plusieurs couches de protection.",
+    "featuresLink": "Découvrir les fonctionnalités",
+    "footer": "PrivateChat — Vos données ne sont pas une marchandise."
+  }
+}

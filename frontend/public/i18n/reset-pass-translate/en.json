@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "PrivateChat, home",
+    "title": "Forgot your password?",
+    "description": "Enter your email address. If an account matches, you will receive a link to reset your password.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@email.com",
+    "loading": "Sending…",
+    "submit": "Send reset link",
+    "modalTitle": "Check your inbox!",
+    "modalDescription": "A password reset email has been sent.",
+    "modalHint": "If an account matches this address, you will receive a link to reset your password. Remember to check your spam folder.",
+    "modalButton": "Got it",
+    "backToLogin": "Back to sign in"
+  }
+}

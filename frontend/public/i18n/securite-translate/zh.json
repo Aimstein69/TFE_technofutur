@@ -1,0 +1,28 @@
+{
+  "security": {
+    "eyebrow": "安全与隐私",
+    "heroLine1": "您的隐私。",
+    "heroLine2": "我们的首要任务。",
+    "description": "PrivateChat 旨在减少您的数据暴露、保护您的账户，并让您掌控自己的交流内容。",
+    "gridLabel": "安全原则",
+    "accounts": {
+      "title": "账户保护",
+      "description": "通过电子邮件地址验证和身份验证保护措施，尽可能减少未经授权的访问。"
+    },
+    "data": {
+      "title": "数据最小化",
+      "description": "尽量减少收集的信息，避免将数据用于商业牟利，并删除不再需要的数据。"
+    },
+    "messages": {
+      "title": "消息由您掌控",
+      "description": "项目计划在消息被阅读后，或用户设定的时间到期后，删除相关消息。"
+    },
+    "encryption": {
+      "title": "加密",
+      "description": "根据敏感数据的性质和用途，采用适当的加密机制来保护这些数据。"
+    },
+    "note": "安全并非依靠单一功能，而是通过多个保护层共同实现。",
+    "featuresLink": "了解功能",
+    "footer": "PrivateChat — 您的数据不是商品。"
+  }
+}

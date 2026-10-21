@@ -1,0 +1,28 @@
+{
+  "security": {
+    "eyebrow": "SECURITY & PRIVACY",
+    "heroLine1": "Your privacy.",
+    "heroLine2": "Our priority.",
+    "description": "PrivateChat is designed to limit the exposure of your data, protect your accounts, and give you control over your conversations.",
+    "gridLabel": "Security principles",
+    "accounts": {
+      "title": "Protected accounts",
+      "description": "Email address verification and authentication safeguards help limit unauthorized access."
+    },
+    "data": {
+      "title": "Data minimization",
+      "description": "Limit the information collected, avoid commercial exploitation, and delete data that is no longer necessary."
+    },
+    "messages": {
+      "title": "Messages under your control",
+      "description": "The project plans to delete messages when they are read or after a duration chosen by the user."
+    },
+    "encryption": {
+      "title": "Encryption",
+      "description": "Protect sensitive data using appropriate encryption mechanisms according to its nature and intended use."
+    },
+    "note": "Security does not rely on a single feature, but on several layers of protection.",
+    "featuresLink": "Discover the features",
+    "footer": "PrivateChat — Your data is not a commodity."
+  }
+}

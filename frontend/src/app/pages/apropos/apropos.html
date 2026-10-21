@@ -1,0 +1,85 @@
+<div class="about-page">
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.home' | translate">
+      <img class="brand-logo" src="/images/privatechat-logo.png" alt="" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links" [attr.aria-label]="'nav.mainNavigation' | translate">
+      <a routerLink="/fonctionnalites" routerLinkActive="active">
+        {{ 'nav.features' | translate }}
+      </a>
+      <a routerLink="/securite" routerLinkActive="active">
+        {{ 'nav.security' | translate }}
+      </a>
+      <a routerLink="/telechargement" routerLinkActive="active">
+        {{ 'nav.download' | translate }}
+      </a>
+      <a routerLink="/apropos" routerLinkActive="active">
+        {{ 'nav.about' | translate }}
+      </a>
+
+      @if (authService.authenticated$ | async) {
+        <a routerLink="/profile" routerLinkActive="active">
+          {{ 'nav.account' | translate }}
+        </a>
+      }
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main class="about-main">
+    <section class="about-content">
+      <span class="eyebrow">{{ 'about.eyebrow' | translate }}</span>
+
+      <h1>
+        {{ 'about.title' | translate }}
+        <span>{{ 'about.titleHighlight' | translate }}</span>
+      </h1>
+
+      <p>
+        {{ 'about.paragraph1' | translate }}
+      </p>
+
+      <p>
+        {{ 'about.paragraph2' | translate }}
+      </p>
+    </section>
+  </main>
+
+  <footer class="about-footer">
+    <span>{{ 'about.footerCopyright' | translate }}</span>
+    <span>{{ 'about.footerSlogan' | translate }}</span>
+  </footer>
+</div>

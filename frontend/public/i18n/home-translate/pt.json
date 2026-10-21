@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "Funcionalidades",
+    "security": "Segurança",
+    "download": "Transferir",
+    "about": "Sobre nós",
+    "account": "A minha conta",
+    "login": "Iniciar sessão",
+    "logout": "Terminar sessão",
+    "homeLabel": "PrivateChat, página inicial",
+    "languageLabel": "Alterar idioma",
+    "mainNavigation": "Navegação principal"
+  },
+  "home": {
+    "heroTitleLine1": "As suas conversas",
+    "heroTitleLine2": "merecem",
+    "heroTitleHighlight": "verdadeira privacidade.",
+    "heroDescription": "O PrivateChat é uma aplicação de mensagens segura, concebida para proteger as suas comunicações e respeitar a sua privacidade.",
+    "registerTitle": "Criar uma conta",
+    "registerDescription": "Junte-se ao PrivateChat e comece a conversar em segurança.",
+    "username": "Nome de utilizador",
+    "usernamePlaceholder": "Escolha um nome de utilizador",
+    "usernameHint": "Entre 3 e 50 caracteres.",
+    "email": "Endereço de e-mail",
+    "emailPlaceholder": "seu@email.com",
+    "password": "Palavra-passe",
+    "passwordPlaceholder": "Crie uma palavra-passe segura",
+    "passwordHint": "Pelo menos 12 caracteres, incluindo letras, números e um carácter especial.",
+    "language": "Idioma",
+    "createAccount": "Criar a minha conta",
+    "creatingAccount": "A criar a conta…",
+    "registrationError": "Não foi possível criar a conta. Tente novamente mais tarde.",
+    "or": "ou",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "features": {
+      "encryptionTitle": "Encriptação de ponta a ponta",
+      "encryptionDescription": "As suas mensagens ficam apenas entre si e os destinatários.",
+      "noAdsTitle": "Sem publicidade",
+      "noAdsDescription": "Uma experiência limpa e sem rastreamento.",
+      "groupsTitle": "Conversas individuais e em grupo",
+      "groupsDescription": "Mantenha-se em contacto com segurança.",
+      "desktopTitle": "Disponível para computador",
+      "desktopDescription": "Uma aplicação dedicada para Windows."
+    },
+    "verificationTitle": "Verifique a sua caixa de entrada!",
+    "verificationDescription": "Foi enviado um e-mail de verificação.",
+    "verificationCheckInbox": "Consulte a sua caixa de entrada em",
+    "verificationActivateAccount": "e clique no link recebido para ativar a sua conta PrivateChat.",
+    "verificationConfirm": "Compreendi"
+  },
+  "language": {
+    "fr": "Francês",
+    "en": "Inglês",
+    "de": "Alemão",
+    "pt": "Português",
+    "ru": "Russo",
+    "zh": "Chinês"
+  }
+}

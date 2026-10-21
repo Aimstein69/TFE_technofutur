@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "security": "Sécurité",
+    "download": "Téléchargement",
+    "about": "À propos",
+    "account": "Mon compte",
+    "login": "Se connecter",
+    "logout": "Déconnexion",
+    "homeLabel": "PrivateChat, accueil",
+    "languageLabel": "Changer de langue",
+    "mainNavigation": "Navigation principale"
+  },
+  "home": {
+    "heroTitleLine1": "Vos conversations",
+    "heroTitleLine2": "méritent une",
+    "heroTitleHighlight": "vraie confidentialité.",
+    "heroDescription": "PrivateChat est une messagerie sécurisée, conçue pour protéger vos échanges et respecter votre vie privée.",
+    "registerTitle": "Créer un compte",
+    "registerDescription": "Rejoignez PrivateChat et commencez à discuter en toute sécurité.",
+    "username": "Nom d'utilisateur",
+    "usernamePlaceholder": "Choisissez un nom d'utilisateur",
+    "usernameHint": "Entre 3 et 50 caractères.",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "votre@email.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Créez un mot de passe sécurisé",
+    "passwordHint": "Au moins 12 caractères, avec des lettres, des chiffres et un caractère spécial.",
+    "language": "Langue",
+    "createAccount": "Créer mon compte",
+    "creatingAccount": "Création du compte…",
+    "registrationError": "Impossible de créer le compte. Réessaie plus tard.",
+    "or": "ou",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "features": {
+      "encryptionTitle": "Chiffrement de bout en bout",
+      "encryptionDescription": "Vos messages restent entre vous.",
+      "noAdsTitle": "Aucune publicité",
+      "noAdsDescription": "Une expérience propre et sans traçage.",
+      "groupsTitle": "Discussions individuelles et de groupe",
+      "groupsDescription": "Restez en contact en toute sécurité.",
+      "desktopTitle": "Disponible sur ordinateur",
+      "desktopDescription": "Application Windows dédiée."
+    },
+    "verificationTitle": "Vérifie ta boîte mail !",
+    "verificationDescription": "Un e-mail de vérification a bien été envoyé.",
+    "verificationCheckInbox": "Vérifie ta boîte mail",
+    "verificationActivateAccount": "et clique sur le lien reçu pour activer ton compte PrivateChat.",
+    "verificationConfirm": "Compris"
+  },
+  "language": {
+    "fr": "Français",
+    "en": "Anglais",
+    "de": "Allemand",
+    "pt": "Portugais",
+    "ru": "Russe",
+    "zh": "Chinois"
+  }
+}

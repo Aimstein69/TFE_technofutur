@@ -1,0 +1,8 @@
+{
+  "verifyEmail": {
+    "title": "确认你的电子邮箱地址",
+    "description": "点击下面的按钮确认你的电子邮箱地址，完成 PrivateChat 账户的创建。",
+    "loading": "正在确认…",
+    "submit": "确认我的电子邮箱地址"
+  }
+}

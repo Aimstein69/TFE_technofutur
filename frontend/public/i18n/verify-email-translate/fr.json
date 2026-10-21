@@ -1,0 +1,8 @@
+{
+  "verifyEmail": {
+    "title": "Confirme ton adresse email",
+    "description": "Clique sur le bouton ci-dessous pour confirmer ton adresse et terminer la création de ton compte PrivateChat.",
+    "loading": "Confirmation…",
+    "submit": "Confirmer mon adresse email"
+  }
+}

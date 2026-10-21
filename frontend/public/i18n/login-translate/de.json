@@ -1,0 +1,15 @@
+{
+  "login": {
+    "home": "PrivateChat, Startseite",
+    "title": "Willkommen zurück",
+    "identifierLabel": "E-Mail oder Benutzername",
+    "identifierPlaceholder": "E-Mail oder Benutzername",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Dein Passwort",
+    "loading": "Anmeldung läuft…",
+    "submit": "Anmelden",
+    "noAccount": "Du hast noch kein Konto?",
+    "createAccount": "Konto erstellen",
+    "forgotPassword": "Passwort vergessen?"
+  }
+}

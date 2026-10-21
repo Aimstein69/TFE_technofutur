@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "PrivateChat, Startseite",
+    "features": "Funktionen",
+    "security": "Sicherheit",
+    "download": "Download",
+    "about": "Über uns",
+    "account": "Mein Konto",
+    "logout": "Abmelden"
+  },
+  "profile": {
+    "eyebrow": "PERSÖNLICHER BEREICH",
+    "title": "Mein",
+    "titleHighlight": "Konto.",
+    "loading": "Profil wird geladen...",
+    "accountLabel": "PrivateChat-Konto",
+    "username": "Benutzername",
+    "email": "E-Mail-Adresse",
+    "language": "Sprache",
+    "verification": "Kontoverifizierung",
+    "verified": "E-Mail-Adresse bestätigt",
+    "notVerified": "Nicht bestätigt",
+    "downloadLink": "Zu den Downloads",
+    "footer": "PrivateChat — Deine Privatsphäre verdient Besseres."
+  }
+}

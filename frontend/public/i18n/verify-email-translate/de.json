@@ -1,0 +1,8 @@
+{
+  "verifyEmail": {
+    "title": "Bestätige deine E-Mail-Adresse",
+    "description": "Klicke auf die Schaltfläche unten, um deine E-Mail-Adresse zu bestätigen und die Erstellung deines PrivateChat-Kontos abzuschließen.",
+    "loading": "Bestätigung läuft…",
+    "submit": "Meine E-Mail-Adresse bestätigen"
+  }
+}

@@ -1,0 +1,358 @@
+:host {
+    display: block;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.download-page {
+    --blue: #287cff;
+    --blue-light: #66a5ff;
+    --text: #f4f7ff;
+    --muted: #bdc9dc;
+    --border: rgba(170, 195, 235, 0.22);
+
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 4.8%;
+    overflow-x: hidden;
+
+    color: var(--text);
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    background: #040a17;
+}
+
+/* Vidéo d'arrière-plan */
+
+.background-video {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.background-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(90deg,
+            rgba(4, 10, 23, 0.83) 0%,
+            rgba(4, 10, 23, 0.7) 48%,
+            rgba(4, 10, 23, 0.83) 100%);
+}
+
+/* Header identique à celui de home */
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 80px;
+    border-bottom: 1px solid var(--border);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--text);
+    font-size: 1.3rem;
+    font-weight: 750;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.brand-logo {
+    display: block;
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.nav-links,
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-links a {
+    color: #d5deed;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+    color: var(--blue-light);
+}
+
+.nav-actions {
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.language-button,
+.login-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 42px;
+    padding: 0 14px;
+
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    background: rgba(8, 16, 32, 0.55);
+
+    font: inherit;
+    font-size: 0.88rem;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.login-button {
+    border-color: rgba(91, 143, 255, 0.55);
+}
+
+.login-button:hover {
+    background: rgba(40, 124, 255, 0.2);
+}
+
+.language-button:hover {
+    border-color: rgba(91, 143, 255, 0.55);
+}
+
+.nav-links a:focus-visible,
+.language-button:focus-visible,
+.login-button:focus-visible,
+.brand:focus-visible {
+    outline: 2px solid var(--blue-light);
+    outline-offset: 4px;
+}
+
+/* Contenu de la page téléchargement */
+
+.download-content {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    flex: 1;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 70px 0 90px;
+}
+
+.eyebrow {
+    display: inline-block;
+    margin-bottom: 22px;
+
+    color: var(--blue-light);
+    font-size: 0.82rem;
+    font-weight: 750;
+    letter-spacing: 2.5px;
+}
+
+.download-content h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 780;
+    line-height: 1.12;
+    letter-spacing: -2px;
+}
+
+.description {
+    max-width: 620px;
+    margin: 25px 0 32px;
+
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.download-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.download-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+
+    min-width: 240px;
+    min-height: 68px;
+    padding: 12px 22px;
+
+    border: 1px solid rgba(91, 143, 255, 0.55);
+    border-radius: 12px;
+    color: var(--text);
+    background: linear-gradient(100deg,
+            rgba(40, 124, 255, 0.28),
+            rgba(35, 112, 237, 0.16));
+
+    font: inherit;
+    text-align: left;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.button-title {
+    font-size: 0.98rem;
+    font-weight: 700;
+}
+
+.button-subtitle {
+    color: var(--muted);
+    font-size: 0.82rem;
+}
+
+.availability {
+    margin: 18px 0 0;
+    color: #aabbd4;
+    font-size: 0.86rem;
+    letter-spacing: 0.5px;
+}
+
+/* Tablettes et écrans intermédiaires */
+
+@media (max-width: 1050px) {
+    .download-page {
+        padding: 0 4%;
+    }
+
+    .nav-links,
+    .nav-actions {
+        gap: 13px;
+    }
+}
+
+/* Petits écrans */
+
+@media (max-width: 800px) {
+    .navbar {
+        min-height: 76px;
+        flex-wrap: wrap;
+        padding: 16px 0;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        overflow-x: auto;
+        padding: 5px 0;
+    }
+
+    .download-content {
+        padding: 55px 0 70px;
+    }
+}
+
+/* Mobiles */
+
+@media (max-width: 520px) {
+    .download-page {
+        padding: 0 20px;
+    }
+
+    .navbar {
+        gap: 12px;
+    }
+
+    .brand {
+        font-size: 1.1rem;
+    }
+
+    .brand-logo {
+        flex-basis: 34px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .nav-actions {
+        gap: 6px;
+    }
+
+    .language-button,
+    .login-button {
+        min-height: 37px;
+        padding: 0 9px;
+        font-size: 0.77rem;
+    }
+
+    .nav-links {
+        gap: 19px;
+    }
+
+    .nav-links a {
+        font-size: 0.82rem;
+        white-space: nowrap;
+    }
+
+    .download-content {
+        padding: 45px 0 55px;
+    }
+
+    .eyebrow {
+        margin-bottom: 18px;
+        font-size: 0.75rem;
+    }
+
+    .download-content h1 {
+        font-size: clamp(2.2rem, 9.5vw, 3rem);
+        letter-spacing: -1.3px;
+    }
+
+    .description {
+        margin: 18px 0 25px;
+        font-size: 0.95rem;
+    }
+
+    .download-button {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .download-actions {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .nav-links a,
+    .language-button,
+    .login-button {
+        transition: none;
+    }
+}

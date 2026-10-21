@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "PrivateChat, início",
+    "title": "Esqueceste-te da palavra-passe?",
+    "description": "Introduz o teu endereço de email. Se existir uma conta correspondente, receberás um link para redefinir a palavra-passe.",
+    "emailLabel": "Endereço de email",
+    "emailPlaceholder": "tu@email.com",
+    "loading": "A enviar…",
+    "submit": "Enviar link",
+    "modalTitle": "Verifica a tua caixa de entrada!",
+    "modalDescription": "Foi enviado um email para redefinir a palavra-passe.",
+    "modalHint": "Se existir uma conta associada a este endereço, receberás um link para redefinir a palavra-passe. Verifica também a pasta de spam.",
+    "modalButton": "Entendi",
+    "backToLogin": "Voltar ao início de sessão"
+  }
+}

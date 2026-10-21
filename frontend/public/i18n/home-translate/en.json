@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "Features",
+    "security": "Security",
+    "download": "Download",
+    "about": "About",
+    "account": "My account",
+    "login": "Log in",
+    "logout": "Log out",
+    "homeLabel": "PrivateChat, home",
+    "languageLabel": "Change language",
+    "mainNavigation": "Main navigation"
+  },
+  "home": {
+    "heroTitleLine1": "Your conversations",
+    "heroTitleLine2": "deserve",
+    "heroTitleHighlight": "true privacy.",
+    "heroDescription": "PrivateChat is a secure messaging app designed to protect your communications and respect your privacy.",
+    "registerTitle": "Create an account",
+    "registerDescription": "Join PrivateChat and start chatting securely.",
+    "username": "Username",
+    "usernamePlaceholder": "Choose a username",
+    "usernameHint": "Between 3 and 50 characters.",
+    "email": "Email address",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Create a secure password",
+    "passwordHint": "At least 12 characters, including letters, numbers and a special character.",
+    "language": "Language",
+    "createAccount": "Create my account",
+    "creatingAccount": "Creating account…",
+    "registrationError": "Unable to create your account. Please try again later.",
+    "or": "or",
+    "alreadyHaveAccount": "Already have an account?",
+    "features": {
+      "encryptionTitle": "End-to-end encryption",
+      "encryptionDescription": "Your messages stay between you and your recipients.",
+      "noAdsTitle": "No advertising",
+      "noAdsDescription": "A clean experience without tracking.",
+      "groupsTitle": "Private and group chats",
+      "groupsDescription": "Stay connected securely.",
+      "desktopTitle": "Available on desktop",
+      "desktopDescription": "A dedicated Windows application."
+    },
+    "verificationTitle": "Check your inbox!",
+    "verificationDescription": "A verification email has been sent.",
+    "verificationCheckInbox": "Check your inbox at",
+    "verificationActivateAccount": "and click the link you received to activate your PrivateChat account.",
+    "verificationConfirm": "Got it"
+  },
+  "language": {
+    "fr": "French",
+    "en": "English",
+    "de": "German",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "zh": "Chinese"
+  }
+}

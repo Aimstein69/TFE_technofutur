@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "PrivateChat，首页",
+    "mainNavigation": "主导航",
+    "features": "功能",
+    "security": "安全",
+    "download": "下载",
+    "about": "关于",
+    "account": "我的账户",
+    "logout": "退出登录",
+    "login": "登录"
+  },
+  "about": {
+    "eyebrow": "关于项目",
+    "title": "一个让我",
+    "titleHighlight": "突破自我的项目。",
+    "paragraph1": "PrivateChat 诞生于我的 Web/App 开发培训期间。除了作为一个培训项目，它也让我有机会接触新技术、提升自己的技能，并挑战此前尚未有机会探索的技术难题。",
+    "paragraph2": "我的目标很简单：不断学习、尝试和突破自我，将一个想法变成具体的项目，同时持续提升自己的开发能力。",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "一个不断发展的项目。"
+  }
+}

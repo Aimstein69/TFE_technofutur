@@ -1,0 +1,107 @@
+<div class="profile-page">
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.home' | translate">
+      <img src="/images/privatechat-logo.png" alt="" class="brand-logo" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links">
+      <a routerLink="/fonctionnalites">{{ 'nav.features' | translate }}</a>
+      <a routerLink="/securite">{{ 'nav.security' | translate }}</a>
+      <a routerLink="/telechargement">{{ 'nav.download' | translate }}</a>
+      <a routerLink="/apropos">{{ 'nav.about' | translate }}</a>
+      <a routerLink="/profile" class="active">{{ 'nav.account' | translate }}</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main class="profile-main">
+    <span class="eyebrow">{{ 'profile.eyebrow' | translate }}</span>
+    <h1>
+      {{ 'profile.title' | translate }} <span>{{ 'profile.titleHighlight' | translate }}</span>
+    </h1>
+
+    @if (isLoading) {
+      <p class="status-message">{{ 'profile.loading' | translate }}</p>
+    } @else if (errorMessage) {
+      <p class="status-message error">{{ errorMessage }}</p>
+    } @else if (user) {
+      <section class="profile-details">
+        <div class="profile-heading">
+          <div class="avatar">
+            {{ user.username.charAt(0).toUpperCase() }}
+          </div>
+
+          <div>
+            <h2>{{ user.username }}</h2>
+            <p>{{ 'profile.accountLabel' | translate }}</p>
+          </div>
+        </div>
+
+        <div class="detail-row">
+          <span>{{ 'profile.username' | translate }}</span>
+          <strong>{{ user.username }}</strong>
+        </div>
+
+        <div class="detail-row">
+          <span>{{ 'profile.email' | translate }}</span>
+          <strong>{{ user.email }}</strong>
+        </div>
+
+        <div class="detail-row">
+          <span>{{ 'profile.language' | translate }}</span>
+          <strong>{{ user.language.toUpperCase() }}</strong>
+        </div>
+
+        <div class="detail-row">
+          <span>{{ 'profile.verification' | translate }}</span>
+          <strong>
+            {{
+              user.isVerified
+                ? ('profile.verified' | translate)
+                : ('profile.notVerified' | translate)
+            }}
+          </strong>
+        </div>
+      </section>
+
+      <a class="download-link" routerLink="/telechargement">
+        {{ 'profile.downloadLink' | translate }}
+        <span aria-hidden="true">→</span>
+      </a>
+    }
+  </main>
+
+  <footer class="profile-footer">{{ 'profile.footer' | translate }}</footer>
+</div>

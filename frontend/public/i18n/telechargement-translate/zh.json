@@ -1,0 +1,24 @@
+{
+  "download": {
+    "eyebrow": "下载",
+    "heroLine1": "您的消息。",
+    "heroLine2": "跨设备使用。",
+    "description": "通过浏览器访问 PrivateChat，并在此查看适用于您设备的应用程序。",
+    "platformsLabel": "PrivateChat 平台",
+    "web": {
+      "title": "网页版",
+      "description": "无需安装额外应用程序，即可直接在浏览器中使用 PrivateChat。",
+      "button": "前往登录"
+    },
+    "windows": {
+      "title": "Windows 应用程序",
+      "description": "计划推出专用桌面应用程序，让您可以在 Windows 电脑上使用 PrivateChat。",
+      "button": "即将推出"
+    },
+    "securityTitle": "您的安全始终至关重要。",
+    "securityDescription": "了解指导 PrivateChat 开发的隐私保护与安全原则。",
+    "securityButton": "了解安全机制",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "您的隐私值得更好的保护。"
+  }
+}

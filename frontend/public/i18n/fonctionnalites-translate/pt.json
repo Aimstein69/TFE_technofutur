@@ -1,0 +1,40 @@
+{
+  "features": {
+    "eyebrow": "UMA MENSAGERIA PENSADA PARA SI",
+    "heroLine1": "As suas conversas.",
+    "heroLine2": "As suas regras.",
+    "heroDescription": "O PrivateChat pretende oferecer-lhe um espaço de comunicação onde a privacidade, o controlo das suas conversas e a simplicidade estão no centro da experiência.",
+    "listLabel": "Funcionalidades do PrivateChat",
+    "private": {
+      "title": "Conversas privadas",
+      "description": "Um espaço concebido para comunicar com os seus contactos, colocando a privacidade no centro do projeto."
+    },
+    "groups": {
+      "title": "Conversas de grupo",
+      "description": "Reúna os seus contactos em conversas de grupo para comunicar e partilhar conteúdos num só lugar."
+    },
+    "ephemeral": {
+      "title": "Mensagens efémeras",
+      "description": "O projeto prevê a eliminação das mensagens após a leitura ou depois de um período definido pelo utilizador."
+    },
+    "files": {
+      "title": "Partilha de ficheiros",
+      "description": "O objetivo é facilitar a partilha de documentos, imagens e outros ficheiros num ambiente que respeita a privacidade."
+    },
+    "privacy": {
+      "title": "Respeito pelos dados pessoais",
+      "description": "Limitar os dados recolhidos, não os vender a anunciantes e privilegiar práticas que respeitem a privacidade."
+    },
+    "windows": {
+      "title": "Aplicação para Windows",
+      "description": "Está prevista uma aplicação de ambiente de trabalho dedicada para utilizar o PrivateChat num computador Windows."
+    },
+    "closingTitle": "A privacidade deve ser uma escolha, não um compromisso.",
+    "closingDescription": "Descubra os princípios de segurança que orientam a conceção do PrivateChat.",
+    "closingButton": "Descobrir a segurança"
+  },
+  "footer": {
+    "copyright": "© PrivateChat",
+    "slogan": "A sua privacidade merece mais."
+  }
+}

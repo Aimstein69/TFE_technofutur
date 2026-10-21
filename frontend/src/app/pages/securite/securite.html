@@ -1,0 +1,118 @@
+<div class="security-page">
+  <video
+    #backgroundVideo
+    class="security-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    aria-hidden="true"
+  >
+    <source src="/videos/securite-background.mp4" type="video/mp4" />
+  </video>
+
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.homeLabel' | translate">
+      <img class="brand-logo" src="/images/privatechat-logo.png" alt="" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links" [attr.aria-label]="'nav.mainNavigation' | translate">
+      <a routerLink="/fonctionnalites" routerLinkActive="active">{{
+        'nav.features' | translate
+      }}</a>
+      <a routerLink="/securite" routerLinkActive="active">{{ 'nav.security' | translate }}</a>
+      <a routerLink="/telechargement" routerLinkActive="active">{{ 'nav.download' | translate }}</a>
+      <a routerLink="/apropos" routerLinkActive="active">{{ 'nav.about' | translate }}</a>
+
+      @if (authService.authenticated$ | async) {
+        <a routerLink="/profile" routerLinkActive="active">{{ 'nav.account' | translate }}</a>
+      }
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main class="security-main">
+    <span class="eyebrow">{{ 'security.eyebrow' | translate }}</span>
+
+    <h1>
+      {{ 'security.heroLine1' | translate }}<br />
+      <span>{{ 'security.heroLine2' | translate }}</span>
+    </h1>
+
+    <p class="description">
+      {{ 'security.description' | translate }}
+    </p>
+
+    <section class="security-grid" [attr.aria-label]="'security.gridLabel' | translate">
+      <article class="security-card">
+        <span class="card-icon" aria-hidden="true">01</span>
+        <h2>{{ 'security.accounts.title' | translate }}</h2>
+        <p>{{ 'security.accounts.description' | translate }}</p>
+      </article>
+
+      <article class="security-card">
+        <span class="card-icon" aria-hidden="true">02</span>
+        <h2>{{ 'security.data.title' | translate }}</h2>
+        <p>{{ 'security.data.description' | translate }}</p>
+      </article>
+
+      <article class="security-card">
+        <span class="card-icon" aria-hidden="true">03</span>
+        <h2>{{ 'security.messages.title' | translate }}</h2>
+        <p>{{ 'security.messages.description' | translate }}</p>
+      </article>
+
+      <article class="security-card">
+        <span class="card-icon" aria-hidden="true">04</span>
+        <h2>{{ 'security.encryption.title' | translate }}</h2>
+        <p>{{ 'security.encryption.description' | translate }}</p>
+      </article>
+    </section>
+
+    <p class="security-note">
+      {{ 'security.note' | translate }}
+    </p>
+
+    <a class="security-link" routerLink="/fonctionnalites">
+      {{ 'security.featuresLink' | translate }}
+      <span aria-hidden="true">→</span>
+    </a>
+  </main>
+
+  <footer class="security-footer">
+    {{ 'security.footer' | translate }}
+  </footer>
+</div>

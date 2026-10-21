@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "PrivateChat, início",
+    "features": "Funcionalidades",
+    "security": "Segurança",
+    "download": "Transferir",
+    "about": "Sobre",
+    "account": "A minha conta",
+    "logout": "Terminar sessão"
+  },
+  "profile": {
+    "eyebrow": "ÁREA PESSOAL",
+    "title": "A minha",
+    "titleHighlight": "conta.",
+    "loading": "A carregar o perfil...",
+    "accountLabel": "Conta PrivateChat",
+    "username": "Nome de utilizador",
+    "email": "Endereço de email",
+    "language": "Idioma",
+    "verification": "Verificação da conta",
+    "verified": "Endereço de email verificado",
+    "notVerified": "Não verificado",
+    "downloadLink": "Aceder aos downloads",
+    "footer": "PrivateChat — A tua privacidade merece melhor."
+  }
+}

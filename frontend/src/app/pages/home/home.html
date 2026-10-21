@@ -1,0 +1,273 @@
+<div class="landing-page">
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.homeLabel' | translate">
+      <img class="brand-logo" src="/images/privatechat-logo.png" alt="" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links" [attr.aria-label]="'nav.mainNavigation' | translate">
+      <a routerLink="/fonctionnalites">
+        {{ 'nav.features' | translate }}
+      </a>
+
+      <a routerLink="/securite">
+        {{ 'nav.security' | translate }}
+      </a>
+
+      <a routerLink="/telechargement">
+        {{ 'nav.download' | translate }}
+      </a>
+
+      <a routerLink="/apropos">
+        {{ 'nav.about' | translate }}
+      </a>
+
+      @if (authService.authenticated$ | async) {
+        <a routerLink="/profile">
+          {{ 'nav.account' | translate }}
+        </a>
+      }
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main class="hero">
+    <section class="hero-content">
+      <h1>
+        {{ 'home.heroTitleLine1' | translate }}<br />
+        {{ 'home.heroTitleLine2' | translate }}<br />
+        <span>{{ 'home.heroTitleHighlight' | translate }}</span>
+      </h1>
+
+      <p class="hero-description">
+        {{ 'home.heroDescription' | translate }}
+      </p>
+
+      <div class="features" id="fonctionnalites">
+        <article class="feature">
+          <div class="feature-icon">
+            <img
+              src="/images/padlock.png"
+              [attr.alt]="'home.features.encryptionTitle' | translate"
+            />
+          </div>
+
+          <div>
+            <h2>{{ 'home.features.encryptionTitle' | translate }}</h2>
+            <p>{{ 'home.features.encryptionDescription' | translate }}</p>
+          </div>
+        </article>
+
+        <article class="feature" id="securite">
+          <div class="feature-icon">
+            <img src="/images/ad-block.png" [attr.alt]="'home.features.noAdsTitle' | translate" />
+          </div>
+
+          <div>
+            <h2>{{ 'home.features.noAdsTitle' | translate }}</h2>
+            <p>{{ 'home.features.noAdsDescription' | translate }}</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <div class="feature-icon">
+            <img src="/images/groups.png" [attr.alt]="'home.features.groupsTitle' | translate" />
+          </div>
+
+          <div>
+            <h2>{{ 'home.features.groupsTitle' | translate }}</h2>
+            <p>{{ 'home.features.groupsDescription' | translate }}</p>
+          </div>
+        </article>
+
+        <article class="feature" id="telechargement">
+          <div class="feature-icon">
+            <img src="/images/desktop.png" [attr.alt]="'home.features.desktopTitle' | translate" />
+          </div>
+
+          <div>
+            <h2>{{ 'home.features.desktopTitle' | translate }}</h2>
+            <p>{{ 'home.features.desktopDescription' | translate }}</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section
+      class="register-card"
+      id="inscription"
+      [attr.aria-label]="'home.registerTitle' | translate"
+    >
+      <div class="card-heading">
+        <h2>{{ 'home.registerTitle' | translate }}</h2>
+        <p>{{ 'home.registerDescription' | translate }}</p>
+      </div>
+
+      <form class="register-form" (ngSubmit)="register()">
+        <div class="form-field">
+          <label for="username">
+            {{ 'home.username' | translate }}
+          </label>
+
+          <input
+            id="username"
+            name="username"
+            type="text"
+            [(ngModel)]="username"
+            [placeholder]="'home.usernamePlaceholder' | translate"
+            autocomplete="username"
+            required
+            minlength="3"
+            maxlength="50"
+          />
+
+          <small>{{ 'home.usernameHint' | translate }}</small>
+        </div>
+
+        <div class="form-field">
+          <label for="email">
+            {{ 'home.email' | translate }}
+          </label>
+
+          <input
+            id="email"
+            name="email"
+            type="email"
+            [(ngModel)]="email"
+            [placeholder]="'home.emailPlaceholder' | translate"
+            autocomplete="email"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="password">
+            {{ 'home.password' | translate }}
+          </label>
+
+          <input
+            id="password"
+            name="password"
+            type="password"
+            [(ngModel)]="password"
+            [placeholder]="'home.passwordPlaceholder' | translate"
+            autocomplete="new-password"
+            required
+            minlength="12"
+            maxlength="128"
+          />
+
+          <small>{{ 'home.passwordHint' | translate }}</small>
+        </div>
+
+        <div class="form-field">
+          <label for="language">
+            {{ 'home.language' | translate }}
+          </label>
+
+          <select id="language" name="language" [(ngModel)]="language">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="pt">Português</option>
+            <option value="ru">Русский</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+
+        @if (successMessage) {
+          <p class="success-message" role="status">
+            {{ successMessage }}
+          </p>
+        }
+
+        @if (errorMessage) {
+          <p class="error-message" role="alert">
+            {{ errorMessage }}
+          </p>
+        }
+
+        <button class="submit-button" type="submit" [disabled]="isLoading">
+          {{ (isLoading ? 'home.creatingAccount' : 'home.createAccount') | translate }}
+          <span aria-hidden="true">→</span>
+        </button>
+
+        <div class="form-divider">
+          <span></span>
+          <p>{{ 'home.or' | translate }}</p>
+          <span></span>
+        </div>
+
+        <p class="login-prompt" id="connexion">
+          {{ 'home.alreadyHaveAccount' | translate }}
+          <a routerLink="/login">
+            {{ 'nav.login' | translate }}
+          </a>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  @if (showVerificationModal) {
+    <div class="modal-backdrop" (click)="closeVerificationModal()">
+      <section
+        class="verification-modal"
+        role="dialog"
+        aria-modal="true"
+        [attr.aria-labelledby]="'verification-title'"
+        (click)="$event.stopPropagation()"
+      >
+        <div class="verification-icon" aria-hidden="true">✓</div>
+
+        <h2 id="verification-title">
+          {{ 'home.verificationTitle' | translate }}
+        </h2>
+
+        <p>
+          {{ 'home.verificationDescription' | translate }}
+        </p>
+
+        <p class="verification-hint">
+          {{ 'home.verificationCheckInbox' | translate }}
+          <strong>{{ email }}</strong>
+          {{ 'home.verificationActivateAccount' | translate }}
+        </p>
+
+        <button type="button" class="modal-button" (click)="closeVerificationModal()">
+          {{ 'home.verificationConfirm' | translate }}
+        </button>
+      </section>
+    </div>
+  }
+</div>

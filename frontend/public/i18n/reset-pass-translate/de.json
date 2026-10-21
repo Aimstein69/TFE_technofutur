@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "PrivateChat, Startseite",
+    "title": "Passwort vergessen?",
+    "description": "Gib deine E-Mail-Adresse ein. Wenn ein passendes Konto existiert, erhältst du einen Link zum Zurücksetzen deines Passworts.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "du@email.com",
+    "loading": "Wird gesendet…",
+    "submit": "Link senden",
+    "modalTitle": "Überprüfe deinen Posteingang!",
+    "modalDescription": "Eine E-Mail zum Zurücksetzen des Passworts wurde gesendet.",
+    "modalHint": "Wenn ein Konto zu dieser Adresse gehört, erhältst du einen Link zum Zurücksetzen deines Passworts. Überprüfe auch deinen Spam-Ordner.",
+    "modalButton": "Verstanden",
+    "backToLogin": "Zurück zur Anmeldung"
+  }
+}

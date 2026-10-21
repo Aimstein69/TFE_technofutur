@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "security": "Sicherheit",
+    "download": "Download",
+    "about": "Über uns",
+    "account": "Mein Konto",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "homeLabel": "PrivateChat, Startseite",
+    "languageLabel": "Sprache ändern",
+    "mainNavigation": "Hauptnavigation"
+  },
+  "home": {
+    "heroTitleLine1": "Ihre Gespräche",
+    "heroTitleLine2": "verdienen",
+    "heroTitleHighlight": "echte Privatsphäre.",
+    "heroDescription": "PrivateChat ist ein sicherer Messenger, der Ihre Kommunikation schützt und Ihre Privatsphäre respektiert.",
+    "registerTitle": "Konto erstellen",
+    "registerDescription": "Werden Sie Teil von PrivateChat und chatten Sie sicher.",
+    "username": "Benutzername",
+    "usernamePlaceholder": "Wählen Sie einen Benutzernamen",
+    "usernameHint": "Zwischen 3 und 50 Zeichen.",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "password": "Passwort",
+    "passwordPlaceholder": "Erstellen Sie ein sicheres Passwort",
+    "passwordHint": "Mindestens 12 Zeichen, einschließlich Buchstaben, Zahlen und eines Sonderzeichens.",
+    "language": "Sprache",
+    "createAccount": "Konto erstellen",
+    "creatingAccount": "Konto wird erstellt…",
+    "registrationError": "Das Konto konnte nicht erstellt werden. Bitte versuchen Sie es später erneut.",
+    "or": "oder",
+    "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+    "features": {
+      "encryptionTitle": "Ende-zu-Ende-Verschlüsselung",
+      "encryptionDescription": "Ihre Nachrichten bleiben zwischen Ihnen und Ihren Empfängern.",
+      "noAdsTitle": "Keine Werbung",
+      "noAdsDescription": "Ein sauberes Nutzungserlebnis ohne Tracking.",
+      "groupsTitle": "Einzel- und Gruppenchats",
+      "groupsDescription": "Bleiben Sie sicher in Kontakt.",
+      "desktopTitle": "Auf dem Computer verfügbar",
+      "desktopDescription": "Eine eigene Windows-Anwendung."
+    },
+    "verificationTitle": "Überprüfen Sie Ihren Posteingang!",
+    "verificationDescription": "Eine Bestätigungs-E-Mail wurde gesendet.",
+    "verificationCheckInbox": "Überprüfen Sie Ihren Posteingang unter",
+    "verificationActivateAccount": "und klicken Sie auf den erhaltenen Link, um Ihr PrivateChat-Konto zu aktivieren.",
+    "verificationConfirm": "Verstanden"
+  },
+  "language": {
+    "fr": "Französisch",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "pt": "Portugiesisch",
+    "ru": "Russisch",
+    "zh": "Chinesisch"
+  }
+}

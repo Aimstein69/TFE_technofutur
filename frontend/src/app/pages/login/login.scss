@@ -1,0 +1,283 @@
+:host {
+    display: block;
+    min-height: 100vh;
+}
+
+.login-page {
+    position: relative;
+    isolation: isolate;
+
+    min-height: 100vh;
+    min-height: 100dvh;
+    box-sizing: border-box;
+    padding: 32px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    overflow: hidden;
+    background: #020b1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Vidéo en arrière-plan */
+.login-video {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    pointer-events: none;
+}
+
+/* Filtre bleu foncé PrivateChat */
+.login-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: linear-gradient(90deg,
+            rgba(2, 11, 26, 0.65) 0%,
+            rgba(3, 20, 45, 0.40) 50%,
+            rgba(2, 11, 26, 0.65) 100%);
+
+    pointer-events: none;
+}
+
+/* Logo et nom de l'application */
+.brand {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.brand img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+/* Carte de connexion */
+.login-card {
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    padding: 36px;
+
+    border: 1px solid rgba(59, 145, 245, 0.65);
+    border-radius: 20px;
+
+    background: rgba(4, 15, 32, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.login-card h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.login-card>p {
+    color: #c4d2e3;
+    line-height: 1.6;
+}
+
+/* Formulaire */
+.login-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.login-card label {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-card input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+
+    border: 1px solid #38516e;
+    border-radius: 9px;
+
+    background: rgba(11, 29, 50, 0.95);
+    color: #fff;
+    font-size: 15px;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.login-card input::placeholder {
+    color: #9aadc4;
+}
+
+.login-card input:focus {
+    outline: none;
+    border-color: #3b91f5;
+    box-shadow: 0 0 0 3px rgba(59, 145, 245, 0.2);
+}
+
+/* Bouton de connexion */
+.login-card button {
+    margin-top: 12px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: #087cf0;
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.login-card button:hover:not(:disabled) {
+    background: #2678d4;
+}
+
+.login-card button:active:not(:disabled) {
+    transform: scale(0.99);
+}
+
+.login-card button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+/* Message d'erreur */
+.login-card .error-message {
+    margin: 4px 0;
+    color: #ffaaaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Lien de création de compte */
+.login-card .login-footer {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-card a {
+    color: #79baff;
+    transition: color 0.2s ease;
+}
+
+.login-card a:hover {
+    color: #fff;
+}
+.forgot-password-link {
+    display: flex;
+    justify-content: center;
+    color: #79baff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+/* Tablettes et smartphones */
+@media (max-width: 600px) {
+    .login-page {
+        padding: 24px 16px;
+        gap: 24px;
+    }
+
+    .login-card {
+        max-width: 440px;
+        padding: 24px;
+    }
+
+    .login-card h1 {
+        font-size: 24px;
+    }
+
+    .brand {
+        font-size: 22px;
+    }
+
+    .brand img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .login-video {
+        object-position: center;
+    }
+
+    .login-overlay {
+        background: rgba(2, 11, 26, 0.68);
+    }
+}
+
+/* Petits écrans ou fenêtres en mode paysage */
+@media (max-height: 600px) and (min-width: 601px) {
+    .login-page {
+        justify-content: flex-start;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .login-card {
+        padding: 24px;
+    }
+
+    .login-card form {
+        margin-top: 18px;
+    }
+}
+
+/* Accessibilité : réduire les animations */
+@media (prefers-reduced-motion: reduce) {
+    .login-video {
+        display: none;
+    }
+
+    .login-page {
+        background: #020b1a;
+    }
+
+    .login-card button,
+    .login-card input,
+    .login-card a {
+        transition: none;
+    }
+}

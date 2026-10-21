@@ -1,0 +1,15 @@
+{
+  "login": {
+    "home": "PrivateChat, главная",
+    "title": "С возвращением!",
+    "identifierLabel": "Электронная почта или имя пользователя",
+    "identifierPlaceholder": "Электронная почта или имя пользователя",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Ваш пароль",
+    "loading": "Выполняется вход…",
+    "submit": "Войти",
+    "noAccount": "Ещё нет аккаунта?",
+    "createAccount": "Создать аккаунт",
+    "forgotPassword": "Забыли пароль?"
+  }
+}

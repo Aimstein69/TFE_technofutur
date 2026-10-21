@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "Voltar à página inicial do PrivateChat",
+    "title": "Esqueceu-se da palavra-passe?",
+    "description": "Introduza o endereço de e-mail associado à sua conta. Enviar-lhe-emos um link para redefinir a palavra-passe.",
+    "emailLabel": "Endereço de e-mail",
+    "emailPlaceholder": "voce@exemplo.com",
+    "loading": "A enviar...",
+    "submit": "Enviar link de redefinição",
+    "modalTitle": "Verifique a sua caixa de entrada",
+    "modalDescription": "Se existir uma conta associada a este endereço de e-mail, receberá um link para redefinir a palavra-passe.",
+    "modalHint": "Verifique também a pasta de spam. O link de redefinição é temporário.",
+    "modalButton": "Compreendi",
+    "backToLogin": "Voltar ao início de sessão"
+  }
+}

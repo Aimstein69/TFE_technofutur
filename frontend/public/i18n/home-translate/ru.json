@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "Возможности",
+    "security": "Безопасность",
+    "download": "Скачать",
+    "about": "О нас",
+    "account": "Мой аккаунт",
+    "login": "Войти",
+    "logout": "Выйти",
+    "homeLabel": "PrivateChat, главная страница",
+    "languageLabel": "Изменить язык",
+    "mainNavigation": "Главная навигация"
+  },
+  "home": {
+    "heroTitleLine1": "Ваши разговоры",
+    "heroTitleLine2": "заслуживают",
+    "heroTitleHighlight": "настоящей конфиденциальности.",
+    "heroDescription": "PrivateChat — это защищённый мессенджер, созданный для защиты вашей переписки и уважения к вашей конфиденциальности.",
+    "registerTitle": "Создать аккаунт",
+    "registerDescription": "Присоединяйтесь к PrivateChat и общайтесь безопасно.",
+    "username": "Имя пользователя",
+    "usernamePlaceholder": "Выберите имя пользователя",
+    "usernameHint": "От 3 до 50 символов.",
+    "email": "Адрес электронной почты",
+    "emailPlaceholder": "ваш@email.com",
+    "password": "Пароль",
+    "passwordPlaceholder": "Создайте надёжный пароль",
+    "passwordHint": "Не менее 12 символов, включая буквы, цифры и специальный символ.",
+    "language": "Язык",
+    "createAccount": "Создать аккаунт",
+    "creatingAccount": "Создание аккаунта…",
+    "registrationError": "Не удалось создать аккаунт. Попробуйте позже.",
+    "or": "или",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "features": {
+      "encryptionTitle": "Сквозное шифрование",
+      "encryptionDescription": "Ваши сообщения доступны только вам и вашим собеседникам.",
+      "noAdsTitle": "Без рекламы",
+      "noAdsDescription": "Чистый интерфейс без отслеживания.",
+      "groupsTitle": "Личные и групповые чаты",
+      "groupsDescription": "Оставайтесь на связи безопасно.",
+      "desktopTitle": "Доступно на компьютере",
+      "desktopDescription": "Специальное приложение для Windows."
+    },
+    "verificationTitle": "Проверьте свою почту!",
+    "verificationDescription": "Письмо для подтверждения было отправлено.",
+    "verificationCheckInbox": "Проверьте почтовый ящик",
+    "verificationActivateAccount": "и перейдите по полученной ссылке, чтобы активировать аккаунт PrivateChat.",
+    "verificationConfirm": "Понятно"
+  },
+  "language": {
+    "fr": "Французский",
+    "en": "Английский",
+    "de": "Немецкий",
+    "pt": "Португальский",
+    "ru": "Русский",
+    "zh": "Китайский"
+  }
+}

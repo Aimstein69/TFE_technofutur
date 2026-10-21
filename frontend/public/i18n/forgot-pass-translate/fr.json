@@ -1,0 +1,16 @@
+{
+  "forgotPassword": {
+    "home": "Retour à l’accueil PrivateChat",
+    "title": "Mot de passe oublié ?",
+    "description": "Saisissez l’adresse e-mail associée à votre compte. Nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "loading": "Envoi en cours...",
+    "submit": "Envoyer le lien de réinitialisation",
+    "modalTitle": "Vérifiez votre boîte mail",
+    "modalDescription": "Si un compte correspond à cette adresse e-mail, vous recevrez un lien pour réinitialiser votre mot de passe.",
+    "modalHint": "Pensez à vérifier vos courriers indésirables. Le lien de réinitialisation est temporaire.",
+    "modalButton": "J’ai compris",
+    "backToLogin": "Retour à la connexion"
+  }
+}

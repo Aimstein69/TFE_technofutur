@@ -1,0 +1,40 @@
+{
+  "features": {
+    "eyebrow": "EIN MESSENGER, DER FÜR SIE ENTWICKELT WURDE",
+    "heroLine1": "Ihre Gespräche.",
+    "heroLine2": "Ihre Regeln.",
+    "heroDescription": "PrivateChat möchte Ihnen einen Kommunikationsraum bieten, in dem Privatsphäre, die Kontrolle über Ihre Gespräche und Einfachheit im Mittelpunkt stehen.",
+    "listLabel": "Funktionen von PrivateChat",
+    "private": {
+      "title": "Private Gespräche",
+      "description": "Ein Raum für den Austausch mit Ihren Kontakten, bei dem der Schutz der Privatsphäre im Mittelpunkt steht."
+    },
+    "groups": {
+      "title": "Gruppenchats",
+      "description": "Bringen Sie Ihre Kontakte in Gruppengesprächen zusammen, um sich auszutauschen und Inhalte an einem Ort zu teilen."
+    },
+    "ephemeral": {
+      "title": "Vergängliche Nachrichten",
+      "description": "Das Projekt sieht vor, Nachrichten nach dem Lesen oder nach einer vom Benutzer festgelegten Zeitspanne zu löschen."
+    },
+    "files": {
+      "title": "Dateifreigabe",
+      "description": "Ziel ist es, das Teilen von Dokumenten, Bildern und anderen Dateien in einer datenschutzfreundlichen Umgebung zu erleichtern."
+    },
+    "privacy": {
+      "title": "Schutz personenbezogener Daten",
+      "description": "Die Datenerfassung begrenzen, Daten nicht an Werbetreibende verkaufen und einen verantwortungsvollen Umgang mit der Privatsphäre fördern."
+    },
+    "windows": {
+      "title": "Windows-Anwendung",
+      "description": "Eine spezielle Desktop-Anwendung ist geplant, damit Sie PrivateChat auf einem Windows-Computer nutzen können."
+    },
+    "closingTitle": "Privatsphäre sollte eine Entscheidung sein, kein Kompromiss.",
+    "closingDescription": "Entdecken Sie die Sicherheitsprinzipien, die die Entwicklung von PrivateChat leiten.",
+    "closingButton": "Sicherheit entdecken"
+  },
+  "footer": {
+    "copyright": "© PrivateChat",
+    "slogan": "Ihre Privatsphäre verdient mehr."
+  }
+}

@@ -1,0 +1,132 @@
+<div class="page-container">
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.homeLabel' | translate">
+      <img class="brand-logo" src="/images/privatechat-logo.png" alt="" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links" [attr.aria-label]="'nav.mainNavigation' | translate">
+      <a routerLink="/fonctionnalites" routerLinkActive="active">{{
+        'nav.features' | translate
+      }}</a>
+      <a routerLink="/securite" routerLinkActive="active">{{ 'nav.security' | translate }}</a>
+      <a routerLink="/telechargement" routerLinkActive="active">{{ 'nav.download' | translate }}</a>
+      <a routerLink="/apropos" routerLinkActive="active">{{ 'nav.about' | translate }}</a>
+
+      @if (authService.authenticated$ | async) {
+        <a routerLink="/profile" routerLinkActive="active">{{ 'nav.account' | translate }}</a>
+      }
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <span class="eyebrow">{{ 'features.eyebrow' | translate }}</span>
+
+      <h1>
+        {{ 'features.heroLine1' | translate }}<br />
+        <span>{{ 'features.heroLine2' | translate }}</span>
+      </h1>
+
+      <p class="hero-description">
+        {{ 'features.heroDescription' | translate }}
+      </p>
+    </section>
+
+    <section class="features-list" [attr.aria-label]="'features.listLabel' | translate">
+      <article class="feature-item">
+        <span class="feature-number">01</span>
+        <div class="feature-content">
+          <h2>{{ 'features.private.title' | translate }}</h2>
+          <p>{{ 'features.private.description' | translate }}</p>
+        </div>
+      </article>
+
+      <article class="feature-item">
+        <span class="feature-number">02</span>
+        <div class="feature-content">
+          <h2>{{ 'features.groups.title' | translate }}</h2>
+          <p>{{ 'features.groups.description' | translate }}</p>
+        </div>
+      </article>
+
+      <article class="feature-item">
+        <span class="feature-number">03</span>
+        <div class="feature-content">
+          <h2>{{ 'features.ephemeral.title' | translate }}</h2>
+          <p>{{ 'features.ephemeral.description' | translate }}</p>
+        </div>
+      </article>
+
+      <article class="feature-item">
+        <span class="feature-number">04</span>
+        <div class="feature-content">
+          <h2>{{ 'features.files.title' | translate }}</h2>
+          <p>{{ 'features.files.description' | translate }}</p>
+        </div>
+      </article>
+
+      <article class="feature-item">
+        <span class="feature-number">05</span>
+        <div class="feature-content">
+          <h2>{{ 'features.privacy.title' | translate }}</h2>
+          <p>{{ 'features.privacy.description' | translate }}</p>
+        </div>
+      </article>
+
+      <article class="feature-item">
+        <span class="feature-number">06</span>
+        <div class="feature-content">
+          <h2>{{ 'features.windows.title' | translate }}</h2>
+          <p>{{ 'features.windows.description' | translate }}</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="closing-card">
+      <h2>{{ 'features.closingTitle' | translate }}</h2>
+      <p>{{ 'features.closingDescription' | translate }}</p>
+      <a class="primary-button" routerLink="/securite">
+        {{ 'features.closingButton' | translate }}
+        <span aria-hidden="true">→</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <span>{{ 'footer.copyright' | translate }}</span>
+    <span>{{ 'footer.slogan' | translate }}</span>
+  </footer>
+</div>

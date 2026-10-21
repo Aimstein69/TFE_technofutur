@@ -1,0 +1,40 @@
+{
+  "features": {
+    "eyebrow": "MESSAGING DESIGNED FOR YOU",
+    "heroLine1": "Your conversations.",
+    "heroLine2": "Your rules.",
+    "heroDescription": "PrivateChat aims to offer you a communication space where privacy, control over your conversations, and simplicity are at the heart of the experience.",
+    "listLabel": "PrivateChat features",
+    "private": {
+      "title": "Private conversations",
+      "description": "A space designed for communicating with your contacts, with privacy at the heart of the project."
+    },
+    "groups": {
+      "title": "Group chats",
+      "description": "Bring your contacts together in group conversations to communicate and share in one place."
+    },
+    "ephemeral": {
+      "title": "Ephemeral messages",
+      "description": "The project plans to delete messages after they have been read or after a duration chosen by the user."
+    },
+    "files": {
+      "title": "File sharing",
+      "description": "The goal is to make it easy to share documents, images, and other files in an environment that respects privacy."
+    },
+    "privacy": {
+      "title": "Respect for personal data",
+      "description": "Limit the data collected, never sell it to advertisers, and prioritize privacy-respecting practices."
+    },
+    "windows": {
+      "title": "Windows application",
+      "description": "A dedicated desktop application is planned to let you use PrivateChat on a Windows computer."
+    },
+    "closingTitle": "Privacy should be a choice, not a compromise.",
+    "closingDescription": "Discover the security principles guiding the design of PrivateChat.",
+    "closingButton": "Discover security"
+  },
+  "footer": {
+    "copyright": "© PrivateChat",
+    "slogan": "Your privacy deserves better."
+  }
+}

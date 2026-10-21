@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "features": "功能",
+    "security": "安全",
+    "download": "下载",
+    "about": "关于我们",
+    "account": "我的账户",
+    "login": "登录",
+    "logout": "退出登录",
+    "homeLabel": "PrivateChat，首页",
+    "languageLabel": "切换语言",
+    "mainNavigation": "主导航"
+  },
+  "home": {
+    "heroTitleLine1": "您的每一次对话",
+    "heroTitleLine2": "都值得拥有",
+    "heroTitleHighlight": "真正的隐私保护。",
+    "heroDescription": "PrivateChat 是一款安全的即时通讯应用，旨在保护您的交流内容并尊重您的隐私。",
+    "registerTitle": "创建账户",
+    "registerDescription": "加入 PrivateChat，开始安全地交流。",
+    "username": "用户名",
+    "usernamePlaceholder": "请选择用户名",
+    "usernameHint": "长度为 3 至 50 个字符。",
+    "email": "电子邮箱地址",
+    "emailPlaceholder": "your@email.com",
+    "password": "密码",
+    "passwordPlaceholder": "创建一个安全的密码",
+    "passwordHint": "至少 12 个字符，包含字母、数字和特殊字符。",
+    "language": "语言",
+    "createAccount": "创建我的账户",
+    "creatingAccount": "正在创建账户…",
+    "registrationError": "无法创建账户，请稍后重试。",
+    "or": "或",
+    "alreadyHaveAccount": "已经拥有账户？",
+    "features": {
+      "encryptionTitle": "端到端加密",
+      "encryptionDescription": "您的消息仅在您和接收者之间传递。",
+      "noAdsTitle": "无广告",
+      "noAdsDescription": "纯净体验，无跟踪。",
+      "groupsTitle": "私人聊天和群组聊天",
+      "groupsDescription": "安全地与他人保持联系。",
+      "desktopTitle": "支持电脑使用",
+      "desktopDescription": "专为 Windows 打造的应用程序。"
+    },
+    "verificationTitle": "请检查您的邮箱！",
+    "verificationDescription": "验证邮件已发送。",
+    "verificationCheckInbox": "请检查您的邮箱",
+    "verificationActivateAccount": "并点击收到的链接，以激活您的 PrivateChat 账户。",
+    "verificationConfirm": "知道了"
+  },
+  "language": {
+    "fr": "法语",
+    "en": "英语",
+    "de": "德语",
+    "pt": "葡萄牙语",
+    "ru": "俄语",
+    "zh": "中文"
+  }
+}

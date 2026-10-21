@@ -1,0 +1,40 @@
+{
+  "features": {
+    "eyebrow": "UNE MESSAGERIE PENSÉE POUR VOUS",
+    "heroLine1": "Vos échanges.",
+    "heroLine2": "Vos règles.",
+    "heroDescription": "PrivateChat ambitionne de vous offrir un espace de communication où la confidentialité, le contrôle de vos échanges et la simplicité sont au centre de l'expérience.",
+    "listLabel": "Fonctionnalités de PrivateChat",
+    "private": {
+      "title": "Conversations privées",
+      "description": "Un espace conçu pour échanger avec vos contacts en plaçant la confidentialité au cœur du projet."
+    },
+    "groups": {
+      "title": "Discussions de groupe",
+      "description": "Retrouvez vos contacts dans des conversations collectives pour échanger et partager au même endroit."
+    },
+    "ephemeral": {
+      "title": "Messages éphémères",
+      "description": "Le projet prévoit la suppression des messages après leur lecture ou au terme d'une durée définie par l'utilisateur."
+    },
+    "files": {
+      "title": "Partage de fichiers",
+      "description": "L'objectif est de faciliter le partage de documents, d'images et d'autres fichiers dans un environnement respectueux de la vie privée."
+    },
+    "privacy": {
+      "title": "Respect des données personnelles",
+      "description": "Limiter les données collectées, ne pas les vendre à des annonceurs et privilégier une utilisation respectueuse de la vie privée."
+    },
+    "windows": {
+      "title": "Application Windows",
+      "description": "Une application de bureau dédiée est prévue pour utiliser PrivateChat depuis un ordinateur Windows."
+    },
+    "closingTitle": "La confidentialité doit être un choix, pas un compromis.",
+    "closingDescription": "Découvrez les principes de sécurité qui guident la conception de PrivateChat.",
+    "closingButton": "Découvrir la sécurité"
+  },
+  "footer": {
+    "copyright": "© PrivateChat",
+    "slogan": "Votre vie privée mérite mieux."
+  }
+}

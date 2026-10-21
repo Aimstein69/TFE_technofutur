@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "PrivateChat, Startseite",
+    "mainNavigation": "Hauptnavigation",
+    "features": "Funktionen",
+    "security": "Sicherheit",
+    "download": "Download",
+    "about": "Über uns",
+    "account": "Mein Konto",
+    "logout": "Abmelden",
+    "login": "Anmelden"
+  },
+  "about": {
+    "eyebrow": "ÜBER DAS PROJEKT",
+    "title": "Ein Projekt, um",
+    "titleHighlight": "meine Grenzen zu überwinden.",
+    "paragraph1": "PrivateChat entstand im Rahmen meiner Ausbildung zum Web-/App-Entwickler. Über dieses Ausbildungsprojekt hinaus bietet es mir die Möglichkeit, neue Technologien kennenzulernen, meine Fähigkeiten zu vertiefen und technische Herausforderungen anzugehen, mit denen ich mich bisher noch nicht beschäftigen konnte.",
+    "paragraph2": "Mein Ziel ist einfach: lernen, experimentieren und meine Grenzen überwinden, um eine Idee in ein konkretes Projekt umzusetzen und mich gleichzeitig als Entwickler weiterzuentwickeln.",
+    "footerCopyright": "© PrivateChat",
+    "footerSlogan": "Ein Projekt in ständiger Weiterentwicklung."
+  }
+}

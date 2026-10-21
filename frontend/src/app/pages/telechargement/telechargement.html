@@ -1,0 +1,88 @@
+<div class="download-page">
+  <video
+    #backgroundVideo
+    class="background-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    aria-hidden="true"
+  >
+    <source src="/videos/telechargement-background.mp4" type="video/mp4" />
+  </video>
+
+  <div class="background-overlay"></div>
+
+  <header class="navbar">
+    <a class="brand" routerLink="/" [attr.aria-label]="'nav.home' | translate">
+      <img class="brand-logo" src="/images/privatechat-logo.png" alt="" />
+      <span>PrivateChat</span>
+    </a>
+
+    <nav class="nav-links" [attr.aria-label]="'nav.mainNavigation' | translate">
+      <a routerLink="/fonctionnalites">{{ 'nav.features' | translate }}</a>
+      <a routerLink="/securite">{{ 'nav.security' | translate }}</a>
+      <a routerLink="/telechargement">{{ 'nav.download' | translate }}</a>
+      <a routerLink="/apropos">{{ 'nav.about' | translate }}</a>
+
+      @if (authService.authenticated$ | async) {
+        <a routerLink="/profile">{{ 'nav.account' | translate }}</a>
+      }
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-selector">
+        <label class="visually-hidden" for="site-language">
+          {{ 'nav.languageLabel' | translate }}
+        </label>
+
+        <select
+          id="site-language"
+          class="language-button"
+          [ngModel]="currentLanguage"
+          (ngModelChange)="changeLanguage($event)"
+          [ngModelOptions]="{ standalone: true }"
+        >
+          @for (lang of languages; track lang) {
+            <option [value]="lang">
+              {{ lang.toUpperCase() }}
+            </option>
+          }
+        </select>
+      </div>
+
+      @if (authService.authenticated$ | async) {
+        <button class="login-button" type="button" (click)="logout()">
+          {{ 'nav.logout' | translate }}
+        </button>
+      } @else {
+        <a class="login-button" routerLink="/login">
+          {{ 'nav.login' | translate }}
+        </a>
+      }
+    </div>
+  </header>
+
+  <main class="download-content">
+    <span class="eyebrow">{{ 'download.eyebrow' | translate }}</span>
+
+    <h1>
+      {{ 'download.heroLine1' | translate }}<br />
+      {{ 'download.heroLine2' | translate }}
+    </h1>
+
+    <p class="description">
+      {{ 'download.description' | translate }}
+    </p>
+
+    <div class="download-actions">
+      <button type="button" class="download-button" disabled>
+        <span class="button-title">{{ 'download.windows.button' | translate }}</span>
+        <span class="button-subtitle">{{ 'download.windows.title' | translate }}</span>
+      </button>
+    </div>
+
+    <p class="availability">{{ 'download.platforms' | translate }}</p>
+  </main>
+</div>

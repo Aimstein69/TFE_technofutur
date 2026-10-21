@@ -1,0 +1,40 @@
+{
+  "features": {
+    "eyebrow": "专为您打造的即时通讯",
+    "heroLine1": "您的交流。",
+    "heroLine2": "您的规则。",
+    "heroDescription": "PrivateChat 致力于为您提供一个以隐私保护、聊天控制权和简洁体验为核心的交流空间。",
+    "listLabel": "PrivateChat 功能",
+    "private": {
+      "title": "私人对话",
+      "description": "专为与联系人交流而设计的空间，将隐私保护置于项目的核心位置。"
+    },
+    "groups": {
+      "title": "群组聊天",
+      "description": "与联系人进行群组交流，在同一个地方沟通并分享内容。"
+    },
+    "ephemeral": {
+      "title": "阅后即焚消息",
+      "description": "项目计划在消息被阅读后，或用户设定的时间到期后，自动删除消息。"
+    },
+    "files": {
+      "title": "文件分享",
+      "description": "旨在让用户能够在尊重隐私的环境中轻松分享文档、图片和其他文件。"
+    },
+    "privacy": {
+      "title": "尊重个人数据",
+      "description": "尽量减少数据收集，不向广告商出售用户数据，并始终优先考虑隐私保护。"
+    },
+    "windows": {
+      "title": "Windows 应用程序",
+      "description": "计划推出专用桌面应用程序，让用户可以在 Windows 电脑上使用 PrivateChat。"
+    },
+    "closingTitle": "隐私应当是一种选择，而不是一种妥协。",
+    "closingDescription": "了解指导 PrivateChat 设计的安全原则。",
+    "closingButton": "了解安全机制"
+  },
+  "footer": {
+    "copyright": "© PrivateChat",
+    "slogan": "您的隐私值得更好的保护。"
+  }
+}

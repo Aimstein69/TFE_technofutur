@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "PrivateChat，首页",
+    "features": "功能",
+    "security": "安全",
+    "download": "下载",
+    "about": "关于",
+    "account": "我的账户",
+    "logout": "退出登录"
+  },
+  "profile": {
+    "eyebrow": "个人中心",
+    "title": "我的",
+    "titleHighlight": "账户。",
+    "loading": "正在加载个人资料...",
+    "accountLabel": "PrivateChat 账户",
+    "username": "用户名",
+    "email": "电子邮箱地址",
+    "language": "语言",
+    "verification": "账户验证",
+    "verified": "邮箱已验证",
+    "notVerified": "尚未验证",
+    "downloadLink": "前往下载页面",
+    "footer": "PrivateChat — 你的隐私值得更好的保护。"
+  }
+}
